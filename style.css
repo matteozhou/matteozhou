@@ -1,3 +1,52 @@
-.body{
-    font-family: 'Roboto', sans-serif;
+body{
+    font-family: 'Arial', sans-serif
+    font-size: 20px;
+    
+}
+
+
+#one{
+    color:lightskyblue;
+}
+
+
+
+.a{
+    color: gray;
+}
+
+
+#b{
+    color:red
+}
+
+
+#c{
+    color: green;
+}
+
+img{
+
+    width: 20%;
+    height: 15%;
+}
+
+.icon-arrow{
+    width: 100px;
+    height: 4px;
+    background-color: #000;
+    position: relative;
+    top: 50px;
+}
+
+.icon-arrow :after{
+ content: "";
+ display: inline-block;
+ width: 40px;
+ height: 4px;
+ background-color: #000;
+ transform: rotate(45deg);
+ position: absolute;
+ right: -6px;
+ bottom: 13px;
 }
