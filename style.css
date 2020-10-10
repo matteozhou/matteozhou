@@ -1,52 +1,60 @@
-body{
-    font-family: 'Arial', sans-serif
-    font-size: 20px;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+html{
+ font-size: 10px;
+ font-family: "lato",Arial,sans-serif;
+}
+
+section{
+    width: 100%;
+    height: 100vh;
+    color: #fff;
+    background:linear-gradient(-45deg,#ee7752,#e73C7e,#23a6d5,#23d5ab );
+    background-size: 400% 400%;
+    position: relative;
+    animation: infinite 10s ease-in-out infinite;
+}
+
+h1{
+    font-size: 4rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border: 3px solid #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 5rem 10rem;
+}
+
+@keyframes infinite{
+    0%{
+        background-position:0 50% ;
+    }
+    50%{
+        background-position:100% 50% ;
+    }
+    100%{
+        background-position:0 50% ;
+    }
     
 }
 
-
-#one{
-    color:lightskyblue;
+.colore{
+    font-family:"lato",Arial,sans-serif;
+    color:white;
 }
 
-
-
-.a{
-    color: gray;
+span {
+    font-size: 12px;
 }
 
-
-#b{
-    color:red
-}
-
-
-#c{
-    color: green;
-}
-
-img{
-
-    width: 20%;
-    height: 15%;
-}
-
-.icon-arrow{
-    width: 100px;
-    height: 4px;
-    background-color: #000;
-    position: relative;
-    top: 50px;
-}
-
-.icon-arrow :after{
- content: "";
- display: inline-block;
- width: 40px;
- height: 4px;
- background-color: #000;
- transform: rotate(45deg);
- position: absolute;
- right: -6px;
- bottom: 13px;
+.due{
+    font-family:"lato",Arial,sans-serif ;
+    color: white;
 }
