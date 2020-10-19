@@ -57,4 +57,23 @@ span {
 .due{
     font-family:"lato",Arial,sans-serif ;
     color: white;
+} 
+.secondo{
+    font-family:"Jazz LET, fantasy";
+    font-weight: 400;
+    font-style: italic;
+    left: 50%;
+    top: 20%;
+    color:greenyellow;
 }
+
+.alto{
+top: 25%;
+}
+
+
+
+
+
+
+
