@@ -29,7 +29,7 @@ body {
   flex-direction: column;
 }
 
-.overlay h2{
+.overlay h3{
   position: absolute;
   top: 20%;
   font-size: 65px;
@@ -55,5 +55,9 @@ body {
   margin-bottom: 5px;
 }
 
-
+img{
+  clip-path: circle();
+  
+  
 }
+
