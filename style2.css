@@ -58,6 +58,18 @@ body {
 img{
   clip-path: circle();
   
+}
+
+.valo{
+  text-align: center;
+  font-family: fantasy;
+  top: 100px;
+}
+
+.color{
+  color: black;
   
 }
+
+
 
