@@ -14,14 +14,14 @@
 #zzz
 {
 position: absolute;
-left: 52%;
+left: 65%;
 top: 1043px;
 }
 
 #zz
 {
     position: absolute;
-    left: 48%;
+    left: 33%;
     top: 1043px;
     
 }
@@ -29,6 +29,57 @@ top: 1043px;
 #z
 {
     position: absolute;
-    left: 44%;
+    left: 48%;
     top: 1043px;;
 }
+
+.onsite1
+{
+    position: absolute;
+    top: 1060px;
+    left: 72%;
+}
+
+
+.onsite2
+{
+    position: absolute;
+    top: 1060px;
+    left: 34%;
+}
+
+
+.onsite3
+{
+    position: relative;
+    top: 1060px;
+    left: 50%;
+}
+
+
+
+.B
+{
+    position:fixed;
+    top:120%;
+}
+
+
+
+#vids {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 120px;
+  }
+  
+  #vids a:first-of-type {
+    margin-bottom: 5px;
+  }
+
+  .color-div
+  {
+      color: black;
+  }
+  
