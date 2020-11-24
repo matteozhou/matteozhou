@@ -5,32 +5,23 @@
  
 }
 
+#page2
+{
+  
+  margin-left: 47%;
+}
+
 .A
 {
    padding-top: 1000px;
 }
 
 
-#zzz
-{
-position: absolute;
-left: 65%;
-top: 1043px;
-}
-
-#zz
-{
-    position: absolute;
-    left: 33%;
-    top: 1043px;
-    
-}
-
 #z
-{
-    position: absolute;
-    left: 48%;
-    top: 1043px;;
+{   
+  margin-left:45%;
+  margin-top:1%;
+ 
 }
 
 .onsite1
@@ -65,21 +56,17 @@ top: 1043px;
 }
 
 
+#vids{
 
-#vids {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: 120px;
-  }
-  
-  #vids a:first-of-type {
-    margin-bottom: 5px;
-  }
+   position: relative;
+   top: 80px;
+   text-align: center;
+}
 
-  .color-div
-  {
-      color: black;
-  }
-  
+
+#ok
+{
+    text-align: center;
+   
+
+}
