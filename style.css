@@ -47,7 +47,7 @@ nav{
 
    label.logo{
       color:white ;
-      font-size: 35px;
+      font-size: 30px;
       line-height: 80px;
       padding:0 100px;
       font-weight: bold;
@@ -143,15 +143,69 @@ nav{
    }
 }
 
-h5{
+/*fine del navbar!!!*/
+
+
+text{
+   font:bold 5rem 'Helvetica', Sans-serif;
+   font-family: garamond;
+   src: url('garamond-italic.ttf');
+   font-style: italic;   
+   text-align: center;
+   background-image:url(https://images.pexels.com/photos/1058367/pexels-photo-1058367.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260);
+   
+   -webkit-background-clip: text;
+ /*   -webkit-text-fill-color: transparent; */
+   color: transparent;
+   
+ }
+
+
+ 
+
+ .text {
    position: absolute;
-   left:48%;
-   top:80%;
-   margin-left: -100px;
-   margin-top: -100px;
-   color: #fff;
+   top: 75%; 
+   right: 50%;
+   transform: translate(50%,-50%);
+   
+   font-family: verdana;
+   font-size: 4em;
+   font-weight: 700;
+   color: #f5f5f5;
+   text-shadow: 1px 1px 1px #919191,
+       1px 2px 1px #919191,
+       1px 3px 1px #919191,
+       1px 4px 1px #919191,
+       1px 5px 1px #919191,
+       1px 6px 1px #919191,
+       1px 7px 1px #919191,
+       1px 8px 1px #919191,
+       1px 9px 1px #919191,
+       1px 10px 1px #919191,
+   1px 18px 6px rgba(16,16,16,0.4),
+   1px 22px 10px rgba(16,16,16,0.2),
+   1px 25px 35px rgba(16,16,16,0.2),
+   1px 30px 60px rgba(16,16,16,0.4);
 }
 
-.tapicon{
-   align-items: center; 
+
+.logo{
+   font-family: verdana;
+   
+   color: #f5f5f5;
+   text-shadow: 1px 1px 1px #919191,
+       1px 2px 1px #919191,
+       1px 3px 1px #919191,
+       1px 4px 1px #919191,
+       1px 5px 1px #919191,
+       1px 6px 1px #919191,
+       1px 1px 1px #919191,
+       1px 1px 1px #919191,
+       1px 1px 1px #919191,
+       1px 1px 1px #919191,
+   1px 18px 6px rgba(16,16,16,0.4),
+   1px 22px 10px rgba(16,16,16,0.2),
+   1px 25px 35px rgba(16,16,16,0.2),
+   1px 30px 60px rgba(16,16,16,0.4);
 }
