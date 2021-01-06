@@ -74,8 +74,8 @@ nav{
    }
 
    a.active,a:hover{
-   background:#1b9bff;
-   transition: .5s;
+   background:#eeff00 ; #1b9bff
+   transition: 0.2s;
    }
 
    .checkbtn{
@@ -96,6 +96,7 @@ nav{
       label.logo{
          font-size: 40px;
          padding-left: 50px;
+         padding: 30px;
       
    }
 
@@ -106,7 +107,8 @@ nav{
 
    @media(max-width:858px){
       .checkbtn{
-         display:block;
+         display: block;
+         
       }
       
 
@@ -146,7 +148,7 @@ nav{
 /*fine del navbar!!!*/
 
 
-text{
+/*text{
    font:bold 5rem 'Helvetica', Sans-serif;
    font-family: garamond;
    src: url('garamond-italic.ttf');
@@ -155,11 +157,11 @@ text{
    background-image:url(https://images.pexels.com/photos/1058367/pexels-photo-1058367.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260);
    
    -webkit-background-clip: text;
- /*   -webkit-text-fill-color: transparent; */
-   color: transparent;
+ /*   -webkit-text-fill-color: transparent; 
+   color: transparent; 
    
  }
-
+*/
 
  
 
@@ -170,23 +172,23 @@ text{
    transform: translate(50%,-50%);
    
    font-family: verdana;
-   font-size: 4em;
+   font-size: 70px;
    font-weight: 700;
-   color: #f5f5f5;
-   text-shadow: 1px 1px 1px #919191,
+   color: #eeff00;
+   text-shadow: 1px 1px 1px  #00ff99,
        1px 2px 1px #919191,
-       1px 3px 1px #919191,
-       1px 4px 1px #919191,
-       1px 5px 1px #919191,
-       1px 6px 1px #919191,
-       1px 7px 1px #919191,
+       1px 3px 1px  #919191,
+       1px 4px 1px  #919191,
+       1px 5px 1px  #919191,
+       1px 6px 1px  #919191,
+       1px 7px 1px  #919191,
        1px 8px 1px #919191,
-       1px 9px 1px #919191,
-       1px 10px 1px #919191,
-   1px 18px 6px rgba(16,16,16,0.4),
-   1px 22px 10px rgba(16,16,16,0.2),
-   1px 25px 35px rgba(16,16,16,0.2),
-   1px 30px 60px rgba(16,16,16,0.4);
+       1px 9px 1px  #919191,
+       1px 10px 1px  #919191,
+       1px 18px 6px  rgba(16,16,16,0.4),
+       1px 22px 10px rgba(16,16,16,0.2),
+       1px 25px 35px rgba(16,16,16,0.2),
+       1px 30px 60px rgba(16,16,16,0.4);
 }
 
 
@@ -213,3 +215,19 @@ text{
 .faceup{
    color: yellow;
 }
+
+/*.{
+ animation: my_rotation 4s infinite ease-in-out;
+
+}
+
+@keyframes my_rotation{
+   0%{transform: rotate(0deg);}
+   20%{transform: rotate(0deg);}
+   40%{transform: rotate(0deg);}
+   60%{transform: rotate(-10deg);}
+   80%{transform: rotate(0deg);}
+   100%{transform: rotate(0deg);}
+
+}
+*/
